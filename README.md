@@ -4,3 +4,22 @@ Note: This map is currently in testing and development phase and may have bugs, 
 > *http://CarolsFarm.ShawnDaGeek.com
 > *http://LittleFoot.rocks
 > *https://fb.gg/ShawnDaGeek
+
+## Install: Single Player, Multiplayer
+
+1. Single Player
+  1. Download zip, unzip and open folder.  
+  1. Change name of folder inside unziped folder from contractors-paradise-master to contractors-paradise.
+  1. Copy newly named folder contractors-paradise to mods folder.
+1. Multi Player
+  1. Download zip, unzip and open folder.  
+  1. Open folder inside of folder to see all the map files. 
+  1. Select all map files and right click to get menu and Send to Zip.  
+  1. Rename zip after finished to contractors-paradise.zip
+  1. Add to mods folder.
+1. Server
+  1. Download zip, unzip and open folder.  
+  1. Open folder inside of folder to see all the map files. 
+  1. Select all map files and right click to get menu and Send to Zip.  
+  1. Rename zip after finished to contractors-paradise.zip
+  1. Add to server mods folder.
