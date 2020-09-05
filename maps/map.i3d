@@ -1030,7 +1030,7 @@
     </TerrainTransformGroup>
     <TransformGroup name="cameras" nodeId="2443">
       <Camera name="topView" translation="-5.6178e-06 1175.25 1.08186e-06" rotation="-90 0 -1.30051e-05" nodeId="2444" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="4150"/>
-      <Camera name="persp" translation="136.063 542.124 -1892.15" rotation="138.963 1.44387 180" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Camera name="persp" translation="-2030.84 567.472 38.2144" rotation="-26.3708 -86.7467 5.4652e-05" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Camera name="topViewNW" translation="-1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2446" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewNE" translation="1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2447" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewSE" translation="1000 400 1000" rotation="-90 -0 8.64222e-06" nodeId="2448" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
