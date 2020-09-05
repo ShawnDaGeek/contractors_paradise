@@ -1,4 +1,4 @@
-![Contractors Paradise version 1.0.0.7](https://repository-images.githubusercontent.com/292419480/23f9e380-ed4f-11ea-8d82-59e467095fda)
+![Contractors Paradise version 1.0.0.7]()
 
 # Contractors Paradise version 1.0.0.7 ( beta) (pc) (FS19)
 
