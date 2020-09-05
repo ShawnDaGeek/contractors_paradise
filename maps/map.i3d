@@ -1068,7 +1068,7 @@
     </TerrainTransformGroup>
     <TransformGroup name="cameras" nodeId="2443">
       <Camera name="topView" translation="-5.6178e-06 1175.25 1.08186e-06" rotation="-90 0 -1.30051e-05" nodeId="2444" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="4150"/>
-      <Camera name="persp" translation="-256.468 200.579 -1511.08" rotation="160.507 43.0183 180" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Camera name="persp" translation="301.494 758.052 -1482.2" rotation="136.214 70.5217 180" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Camera name="topViewNW" translation="-1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2446" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewNE" translation="1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2447" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewSE" translation="1000 400 1000" rotation="-90 -0 8.64222e-06" nodeId="2448" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
@@ -1283,7 +1283,7 @@
         <Shape shapeId="22" name="CurveLane30m90left" translation="0.0101776 0.268311 80.8013" rotation="-1.73028e-05 -90 0" scale="2 2 2" static="true" clipDistance="2400" nodeId="2614" materialIds="99,82" receiveShadows="true"/>
       </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="decore" nodeId="2615">
+    <TransformGroup name="decore" visibility="false" nodeId="2615">
       <TransformGroup name="decoreHardware" nodeId="2616">
         <TransformGroup name="lights" nodeId="2617">
           <TransformGroup name="floodLight" translation="114.457 89.9922 -1624.91" rotation="-180 -48.017 -180" nodeId="2618">
