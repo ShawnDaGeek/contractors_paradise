@@ -1030,7 +1030,7 @@
     </TerrainTransformGroup>
     <TransformGroup name="cameras" nodeId="2443">
       <Camera name="topView" translation="-5.6178e-06 1175.25 1.08186e-06" rotation="-90 0 -1.30051e-05" nodeId="2444" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="4150"/>
-      <Camera name="persp" translation="-2030.84 567.472 38.2144" rotation="-26.3708 -86.7467 5.4652e-05" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Camera name="persp" translation="82.8815 669.557 -2072.74" rotation="152.483 -0.162938 -180" nodeId="2445" fov="54.4322" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Camera name="topViewNW" translation="-1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2446" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewNE" translation="1000 400 -1000" rotation="-90 -0 8.64222e-06" nodeId="2447" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
       <Camera name="topViewSE" translation="1000 400 1000" rotation="-90 -0 8.64222e-06" nodeId="2448" fov="60" nearClip="0.1" farClip="10000" orthographic="true" orthographicHeight="2200"/>
@@ -1140,7 +1140,7 @@
     <TransformGroup name="transport" nodeId="2524">
       <TransformGroup name="exportLoc" translation="15.4657 90.2696 -1670.61" nodeId="2562"/>
     </TransformGroup>
-    <TransformGroup name="decore" nodeId="2615">
+    <TransformGroup name="decore" visibility="false" nodeId="2615">
       <TransformGroup name="decoreHardware" nodeId="2616">
         <TransformGroup name="lights" nodeId="2617">
           <TransformGroup name="floodLight" translation="114.457 89.9922 -1624.91" rotation="-180 -48.017 -180" nodeId="2618">
