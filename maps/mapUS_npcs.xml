@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <npcs>
+        <npc name="NPC_US_01" title="Mason Newton"      category="young"  imageFilename="$dataS2/character/humans/npc/npc16_diffuse.png" />
+        <npc name="NPC_US_02" title="Aaron Buckley"     category="young"  imageFilename="$dataS2/character/humans/npc/npc14_diffuse.png" />
+        <npc name="NPC_US_03" title="Tyler Fleming"     category="young"  imageFilename="$dataS2/character/humans/npc/npc21_diffuse.png" />
+        <npc name="NPC_US_04" title="Brian Townsend"    category="young"  imageFilename="$dataS2/character/humans/npc/npc42_diffuse.png" />
+
+        <npc name="NPC_US_05" title="Blake C. Colvin"   category="middle" imageFilename="$dataS2/character/humans/npc/npc27_diffuse.png" />
+        <npc name="NPC_US_06" title="Anthony Morgan"    category="middle" imageFilename="$dataS2/character/humans/npc/npc37_diffuse.png" />
+        <npc name="NPC_US_07" title="Scott Nix"         category="middle" imageFilename="$dataS2/character/humans/npc/npc29_diffuse.png" />
+        <npc name="NPC_US_08" title="Toby Law"          category="middle" imageFilename="$dataS2/character/humans/npc/npc23_diffuse.png" />
+        <npc name="NPC_US_09" title="Paul Carrier"      category="middle" imageFilename="$dataS2/character/humans/npc/npc06_diffuse.png" />
+
+        <npc name="NPC_US_10" title="Philip Elder"      category="old"    imageFilename="$dataS2/character/humans/npc/npc04_diffuse.png" />
+        <npc name="NPC_US_11" title="Emerson Ramirez"   category="old"    imageFilename="$dataS2/character/humans/npc/npc25_diffuse.png" />
+        <npc name="NPC_US_12" title="Robert Rudolph"    category="old"    imageFilename="$dataS2/character/humans/npc/npc01_diffuse.png" />
+        <npc name="NPC_US_13" title="Leo Thompson"      category="old"    imageFilename="$dataS2/character/humans/npc/npc03_diffuse.png" />
+        <npc name="NPC_US_14" title="Maurice Vargas"    category="old"    imageFilename="$dataS2/character/humans/npc/npc24_diffuse.png" />
+        <npc name="NPC_US_15" title="Kenneth Fletcher"  category="old"    imageFilename="$dataS2/character/humans/npc/npc41_diffuse.png" />
+
+        <npc name="NPC_US_16" title="Rebecca O'Connor"  category="female" imageFilename="$dataS2/character/humans/npc/npc11_diffuse.png" />
+        <npc name="NPC_US_17" title="Karen Diaz"        category="female" imageFilename="$dataS2/character/humans/npc/npc20_diffuse.png" />
+        <npc name="NPC_US_18" title="Justine Coggins"   category="female" imageFilename="$dataS2/character/humans/npc/npc15_diffuse.png" />
+        <npc name="NPC_US_19" title="Debra Joseph"      category="female" imageFilename="$dataS2/character/humans/npc/npc13_diffuse.png" />
+        <npc name="NPC_US_20" title="Elizabeth Frazier" category="female" imageFilename="$dataS2/character/humans/npc/npc34_diffuse.png" />
+
+        <npc name="NPC_DE_01" title="Dieter Holzman"    category="young"  imageFilename="$dataS2/character/humans/npc/npc02_diffuse.png" />
+        <npc name="NPC_DE_02" title="Christian Beyer"   category="young"  imageFilename="$dataS2/character/humans/npc/npc10_diffuse.png" />
+        <npc name="NPC_DE_03" title="Bernd Jung"        category="young"  imageFilename="$dataS2/character/humans/npc/npc27_diffuse.png" />
+        <npc name="NPC_DE_04" title="Ralph Hertz"       category="young"  imageFilename="$dataS2/character/humans/npc/npc30_diffuse.png" />
+
+        <npc name="NPC_DE_05" title="Benjamin Ecke"     category="middle" imageFilename="$dataS2/character/humans/npc/npc09_diffuse.png" />
+        <npc name="NPC_DE_06" title="Reinhold Meyer"    category="middle" imageFilename="$dataS2/character/humans/npc/npc07_diffuse.png" />
+        <npc name="NPC_DE_07" title="Paul Gerber"       category="middle" imageFilename="$dataS2/character/humans/npc/npc17_diffuse.png" />
+        <npc name="NPC_DE_08" title="David Finkel"      category="middle" imageFilename="$dataS2/character/humans/npc/npc31_diffuse.png" />
+        <npc name="NPC_DE_09" title="Jonas Freeh"       category="middle" imageFilename="$dataS2/character/humans/npc/npc39_diffuse.png" />
+
+        <npc name="NPC_DE_10" title="Robert Aachen"     category="old"    imageFilename="$dataS2/character/humans/npc/npc12_diffuse.png" />
+        <npc name="NPC_DE_11" title="Lucas Frankfurter" category="old"    imageFilename="$dataS2/character/humans/npc/npc32_diffuse.png" />
+        <npc name="NPC_DE_12" title="Florian Konig"     category="old"    imageFilename="$dataS2/character/humans/npc/npc26_diffuse.png" />
+        <npc name="NPC_DE_13" title="Daniel Kohler"     category="old"    imageFilename="$dataS2/character/humans/npc/npc38_diffuse.png" />
+        <npc name="NPC_DE_14" title="Uwe Ziegler"       category="old"    imageFilename="$dataS2/character/humans/npc/npc19_diffuse.png" />
+        <npc name="NPC_DE_15" title="Maik Schuhmacher"  category="old"    imageFilename="$dataS2/character/humans/npc/npc36_diffuse.png" />
+
+        <npc name="NPC_DE_16" title="Leonie Farber"     category="female" imageFilename="$dataS2/character/humans/npc/npc18_diffuse.png" />
+        <npc name="NPC_DE_17" title="Gloria Puscher"    category="female" imageFilename="$dataS2/character/humans/npc/npc22_diffuse.png" />
+        <npc name="NPC_DE_18" title="Sophie Dresdner"   category="female" imageFilename="$dataS2/character/humans/npc/npc08_diffuse.png" />
+        <npc name="NPC_DE_19" title="Stephanie Pfeffer" category="female" imageFilename="$dataS2/character/humans/npc/npc43_diffuse.png" />
+        <npc name="NPC_DE_20" title="Jessica Richter"   category="female" imageFilename="$dataS2/character/humans/npc/npc44_diffuse.png" />
+    </npcs>
+</map>

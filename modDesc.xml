@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>ShawnDaGeek</author>
+    <version>1.0.0.7</version>
+    <title>
+        <en>Contractors Paradise 4x</en>
+        <de>Contractors Paradise 4x</de>
+    </title>
+    <description>
+        <en>Contractors Paradise is a simple 4x map and fictional in nature.</en>
+        <de>Contractors Paradise is a simple 4x map and fictional in nature.</de>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="ModMap" filename="ModMap.lua" configFilename="maps/map.xml" defaultVehiclesXMLFilename="defaultVehicles.xml" defaultItemsXMLFilename="defaultItems.xml">
+            <title>
+                <en>Contractors Paradise 4x</en>
+                <de>Contractors Paradise 4x</de>
+            </title>
+            <description>
+                <en>Contractors Paradise is a simple 4x map and fictional in nature.</en>
+                <de>Contractors Paradise is a simple 4x map and fictional in nature.</de>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+    <extraSourceFiles>
+        <!--<sourceFile filename="scripts/DynamicMud.lua"/>-->
+    </extraSourceFiles>
+</modDesc>
