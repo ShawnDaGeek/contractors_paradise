@@ -10,7 +10,7 @@ Note: This map is currently in testing and development phase and may have bugs, 
 1. Single Player
   * Download zip, unzip and open folder.  
   * Change name of folder inside unziped folder from contractors-paradise-master to contractors_paradise.
-  * Copy newly named folder contractors-paradise to mods folder.
+  * Copy newly named folder contractors_paradise to mods folder.
 2. Multi Player
   * Download zip, unzip and open folder.  
   * Open folder inside of folder to see all the map files. 
