@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>Spezi2.0modding</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Deco Pack</en>
+        <de>Deco Pack</de>
+    </title>
+	<description>
+		<en>
+			<![CDATA[These are prefab objects for a map these use the European/buildingsArray.]]>
+		</en>
+		<de>
+			<![CDATA[Dies sind Prefab Objekte für eine Map diese verwenden die European/buildingsArray.]]>
+		</de>
+</description> 
+	<categories>
+        <category>others</category>
+    </categories>
+	<prefabs>
+		<prefab name="DecoPack" i3dFilename="DecoPack.i3d" />
+    </prefabs>
+	<iconFilename>Icon_DecoPack.dds</iconFilename>
+</prefabDesc>

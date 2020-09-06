@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>Stephane modding</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Pak Shed Prefab</en>
+		<de>Pak Shed Fertighaus</de>
+    </title>
+	<description>
+        <en><![CDATA[This is a Pak shed Prefab is for decoration on a map.]]></en>
+		<de><![CDATA[Dies ist ein Prefab Pack mit Unterständen, zur Dekoration auf einer Karte.]]></de>
+    </description>
+	<categories>
+        <category>Other</category>
+        <category>Static</category>
+    </categories>
+	<prefabs>
+		<prefab name="Pak_Shed_Prefab" i3dFilename="Pak_Shed_Prefab.i3d" />
+    </prefabs>
+</prefabDesc>

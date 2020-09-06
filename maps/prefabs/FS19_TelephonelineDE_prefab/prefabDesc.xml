@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>Kastor / d-s-agrarservice</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Telephoneline Set</en>
+        <de>Telefonleitung Set</de>
+        <fr>Ensemble De Ligne Téléphonique</fr>
+    </title>
+	<description>
+        <en><![CDATA[Telephone line set. Typical connections in rural areas.]]></en>
+        <de><![CDATA[Telefonleitungs Set. Typische Verbindung in ländlichen Gegenden.]]></de>
+        <fr><![CDATA[Ensemble de ligne téléphonique. Connexions typiques dans les zones rurales.]]></fr>
+</description>
+	<categories>
+        <category>others</category>
+    </categories>
+    <iconFilename>icon_Telephoneline.dds</iconFilename>
+	<prefabs>
+		<prefab name="Telephoneline Set" i3dFilename="Telephoneline.i3d" />
+    </prefabs>
+</prefabDesc>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="telemast_diffuse.png"/>
+    <File fileId="5" filename="telemast_mask.dds"/>
+    <File fileId="2" filename="telemast_normal.png"/>
+    <File fileId="3" filename="telemast_specular.png" colorProfile="sRGB"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="4" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="lambert1" materialId="5" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Telephoneline.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Mast1" translation="-3.229 0 0" clipDistance="300" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="coli" translation="0 2.52769 0" scale="0.221411 6.83107 0.221411" static="true" nodeId="15" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+    </Shape>
+    <Shape shapeId="3" name="Mast2" translation="-2.18507 0 0" clipDistance="300" nodeId="16" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="coli" translation="0 2.528 0" scale="0.221411 6.83107 0.221411" static="true" nodeId="17" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+    </Shape>
+    <Shape shapeId="4" name="Mastkabel" translation="-1.64744 0 0" clipDistance="200" nodeId="18" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    <Shape shapeId="5" name="Maststueze" translation="-3.839 0 0" clipDistance="300" nodeId="19" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="coli" translation="-0.488242 2.58075 0" rotation="0 -0 -7.15318" scale="0.221411 6.83107 0.221411" static="true" nodeId="20" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+    </Shape>
+    <Shape shapeId="6" name="Kabel40m" translation="-0.999396 6.92121 0" clipDistance="200" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    <Shape shapeId="7" name="Kabel20m" translation="-0.236096 6.89438 0" clipDistance="200" nodeId="22" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>Spezi2.0modding</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Houses Pack</en>
+        <de>Häuser Pack</de>
+    </title>
+	<description>
+		<en>
+			<![CDATA[This is a prefab object for a map present in the huts these use the European/buildingsArray, there are 15 houses present.]]>
+		</en>
+		<de>
+			<![CDATA[Dies ist ein Prefab Objekt für eine Map in den Hüser vorhanden sind diese verwenden die European/buildingsArray, es sind 15 Häuser vorhanden.]]>
+		</de>
+    </description> 
+	<categories>
+        <category>others</category>
+    </categories>
+	<prefabs>
+		<prefab name="Häuser pack" i3dFilename="Houses.i3d" />
+    </prefabs>
+	<iconFilename>Icon_Houses.dds</iconFilename>
+</prefabDesc>
