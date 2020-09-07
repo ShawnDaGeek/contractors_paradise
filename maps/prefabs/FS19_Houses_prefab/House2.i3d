@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Vulcano island 4x" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+    </Asset>
+    <Files>
+        <File fileId="11" filename="$data/maps/textures/european/buildingsWindowsResidential_diffuse.png"/>
+        <File fileId="15" filename="$data/maps/textures/european/buildingsWindowsResidential_emissive.png"/>
+        <File fileId="13" filename="$data/maps/textures/european/buildingsWindowsResidential_specular.png"/>
+        <File fileId="5" filename="$data/shaders/buildingShader.xml"/>
+        <File fileId="14" filename="$data/shaders/dashboardLightsShader.xml"/>
+        <File fileId="12" filename="$data/shared/default_normal.png"/>
+        <File fileId="2" filename="../../../../Desktop/FS19/MVP19/textures/haus_fs11tofs19.dds"/>
+        <File fileId="3" filename="../../../../Desktop/FS19/MVP19/textures/haus_fs11tofs19_normal.dds"/>
+        <File fileId="4" filename="../../../../Desktop/FS19/MVP19/textures/haus_fs11tofs19_spec.dds"/>
+        <File fileId="6" filename="../../../../Desktop/FS19/MVP19/textures/hausfs11_19_mask.dds"/>
+        <File fileId="16" filename="../exports/streets/textures/FS17/Roads/XJunction2.dds"/>
+    </Files>
+    <Materials>
+        <Material name="lambert1" materialId="14">
+            <Texture fileId="16"/>
+        </Material>
+        <Material name="windows" materialId="81343" customShaderId="14">
+            <Texture fileId="11"/>
+            <Normalmap fileId="12"/>
+            <Glossmap fileId="13"/>
+            <Custommap name="mEmissiveMap" fileId="15"/>
+            <CustomParameter name="lightControl" value="1 1 1 0"/>
+        </Material>
+        <Material name="default" materialId="81353" diffuseColor="0.294118 0.294118 0.294118 1"/>
+        <Material name="haus" materialId="81329" customShaderId="5">
+            <Texture fileId="2"/>
+            <Normalmap fileId="3"/>
+            <Glossmap fileId="4"/>
+            <Custommap name="mMaskMap" fileId="6"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="House2.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="house1" translation="48.482 0 -103.397" rotation="-180 1.54991 -180" scale="1.2 1 1.2" nodeId="84331">
+            <Shape shapeId="1" name="Cube" static="true" clipDistance="900" nodeId="84332" materialIds="81353" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="2" name="nw.001" rotation="90 -0 0" nodeId="84333" materialIds="81329" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="illum" nodeId="84334">
+                    <Shape shapeId="3" name="windows2" rotation="90 0 0" nodeId="84335" materialIds="81343" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="realLights" visibility="false" nodeId="84336">
+                        <Light name="pointLight1" translation="4.99464 5.82071 1.15505" clipDistance="75" nodeId="84337" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight2" translation="4.99465 5.84715 -0.22" clipDistance="75" nodeId="84338" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight3" translation="4.99465 2.81186 -0.908516" clipDistance="75" nodeId="84339" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight4" translation="4.99464 2.41152 2.2567" clipDistance="75" nodeId="84340" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight5" translation="4.99464 2.26276 3.52492" clipDistance="75" nodeId="84341" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight6" translation="1.33535 2.03653 -2.96565" clipDistance="75" nodeId="84342" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight7" translation="1.21888 2.27292 6.85723" clipDistance="75" nodeId="84343" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight7" translation="-4.23153 2.24798 6.85724" clipDistance="75" nodeId="84344" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                    </TransformGroup>
+                </TransformGroup>
+            </Shape>
+            <Shape shapeId="4" name="Cube.001" translation="0 0 0.300931" scale="1 1 1.1" static="true" clipDistance="350" nodeId="84345" materialIds="81353" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="5" name="nw.000" rotation="90 0 0" nodeId="84346" materialIds="81329" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="illum" nodeId="84347">
+                    <Shape shapeId="6" name="window1" rotation="90 0 0" nodeId="84348" materialIds="81343" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="realLights" visibility="false" nodeId="84349">
+                        <Light name="pointLight1" translation="-1.33492 2.02198 -3.97635" clipDistance="75" nodeId="84350" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight2" translation="-1.33492 2.39558 -6.73869" clipDistance="75" nodeId="84351" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                        <Light name="pointLight3" translation="-1.33492 2.76445 -5.12696" clipDistance="75" nodeId="84352" type="point" color="0.201 0.168352 0.080199" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+                    </TransformGroup>
+                </TransformGroup>
+            </Shape>
+            <Shape shapeId="7" name="snow" scale="0.84 1 0.84" visibility="false" clipDistance="300" nodeId="84353" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="84334">
+            <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="84347">
+            <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="84353">
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.SnowAdmirer"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>
