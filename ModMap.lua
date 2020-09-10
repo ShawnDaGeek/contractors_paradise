@@ -9,7 +9,7 @@ ModMap = {}
         local self = ModMap:superClass():new(baseDirectory, mt, missionCollaborators)
 
         -- Number of additional channels that are used compared to the original setting (2)
-        local numAdditionalAngleChannels = 4;
+        local numAdditionalAngleChannels = 3;
 
         self.terrainDetailAngleNumChannels = self.terrainDetailAngleNumChannels + numAdditionalAngleChannels;
         self.terrainDetailAngleMaxValue = (2^self.terrainDetailAngleNumChannels) - 1;

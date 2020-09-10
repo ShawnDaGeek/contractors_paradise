@@ -2,80 +2,80 @@
 <map>
     <fillTypeConverters>
         <fillTypeConverter name="TEDDER">
-            <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="1.0" />
-            <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="1.0" />
-            <converter from="STRAW"                to="STRAW"            factor="1.0" />
+            <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="2.5" />
+            <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="2.0" />
+            <converter from="STRAW"                to="STRAW"            factor="2.7" />
         </fillTypeConverter>
     </fillTypeConverters>
 
     <fillTypes>
-        <fillType name="WHEAT" title="$l10n_fillType_wheat" showOnPriceTable="true" pricePerLiter="0.337" >
+        <fillType name="WHEAT" title="$l10n_fillType_wheat" showOnPriceTable="true" pricePerLiter="0.537" >
             <image hud="maps/newFruits/hud/hud_fill_wheat.png" hudSmall="maps/newFruits/hud/hud_fill_wheat_sml.png" />
             <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="BARLEY" title="$l10n_fillType_barley" showOnPriceTable="true" pricePerLiter="0.313" >
+        <fillType name="BARLEY" title="$l10n_fillType_barley" showOnPriceTable="true" pricePerLiter="0.513" >
             <image hud="maps/newFruits/hud/hud_fill_barley.png" hudSmall="maps/newFruits/hud/hud_fill_barley_sml.png" />
             <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="OAT" title="$l10n_fillType_oat" showOnPriceTable="true" pricePerLiter="0.563" >
+        <fillType name="OAT" title="$l10n_fillType_oat" showOnPriceTable="true" pricePerLiter="0.763" >
             <image hud="maps/newFruits/hud/hud_fill_oat.png" hudSmall="maps/newFruits/hud/hud_fill_oat_sml.png" />
             <physics massPerLiter="0.50" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="CANOLA" title="$l10n_fillType_canola" showOnPriceTable="true"  pricePerLiter="0.603" >
+        <fillType name="CANOLA" title="$l10n_fillType_canola" showOnPriceTable="true"  pricePerLiter="0.803" >
             <image hud="maps/newFruits/hud/hud_fill_canola.png" hudSmall="maps/newFruits/hud/hud_fill_canola_sml.png" />
             <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="SUNFLOWER" title="$l10n_fillType_sunflower" showOnPriceTable="true" pricePerLiter="0.673" >
+        <fillType name="SUNFLOWER" title="$l10n_fillType_sunflower" showOnPriceTable="true" pricePerLiter="0.773" >
             <image hud="maps/newFruits/hud/hud_fill_sunflower.png" hudSmall="maps/newFruits/hud/hud_fill_sunflower_sml.png" />
             <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="SOYBEAN" title="$l10n_fillType_soybean" showOnPriceTable="true"  pricePerLiter="0.778" >
+        <fillType name="SOYBEAN" title="$l10n_fillType_soybean" showOnPriceTable="true"  pricePerLiter="0.878" >
             <image hud="maps/newFruits/hud/hud_fill_soyBean.png" hudSmall="maps/newFruits/hud/hud_fill_soyBean_sml.png" />
             <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="MAIZE" title="$l10n_fillType_maize" showOnPriceTable="true" pricePerLiter="0.380" >
+        <fillType name="MAIZE" title="$l10n_fillType_maize" showOnPriceTable="true" pricePerLiter="0.580" >
             <image hud="maps/newFruits/hud/hud_fill_maize.png" hudSmall="maps/newFruits/hud/hud_fill_maize_sml.png" />
             <physics massPerLiter="0.80" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="POTATO" title="$l10n_fillType_potato" showOnPriceTable="true" pricePerLiter="0.172" >
+        <fillType name="POTATO" title="$l10n_fillType_potato" showOnPriceTable="true" pricePerLiter="0.372" >
             <image hud="maps/newFruits/hud/hud_fill_potato.png" hudSmall="maps/newFruits/hud/hud_fill_potato_sml.png" />
             <physics massPerLiter="0.75" maxPhysicalSurfaceAngle="34" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="SUGARBEET" title="$l10n_fillType_sugarBeet" showOnPriceTable="true" pricePerLiter="0.122" >
+        <fillType name="SUGARBEET" title="$l10n_fillType_sugarBeet" showOnPriceTable="true" pricePerLiter="0.322" >
             <image hud="maps/newFruits/hud/hud_fill_sugarBeet.png" hudSmall="maps/newFruits/hud/hud_fill_sugarBeet_sml.png" />
             <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="34" />
         </fillType>
-        <fillType name="COTTON" title="$l10n_fillType_cotton" showOnPriceTable="true" pricePerLiter="1.252" >
+        <fillType name="COTTON" title="$l10n_fillType_cotton" showOnPriceTable="true" pricePerLiter="1.452" >
             <image hud="maps/newFruits/hud/hud_fill_cotton.png" hudSmall="maps/newFruits/hud/hud_fill_cotton_sml.png" />
             <physics massPerLiter="0.23" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-        <fillType name="SUGARCANE" title="$l10n_fillType_sugarCane" showOnPriceTable="true" pricePerLiter="0.460" >
+        <fillType name="SUGARCANE" title="$l10n_fillType_sugarCane" showOnPriceTable="true" pricePerLiter="0.660" >
             <image hud="maps/newFruits/hud/hud_fill_sugarCane.png" hudSmall="maps/newFruits/hud/hud_fill_sugarCane_sml.png" />
             <physics massPerLiter="0.18" maxPhysicalSurfaceAngle="50" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-		<fillType name="CARROT" title="Carrot" showOnPriceTable="true" pricePerLiter="0.666" >
+		<fillType name="CARROT" title="Carrot" showOnPriceTable="true" pricePerLiter="0.777" >
             <image hud="maps/newFruits/hud/hud_fill_carrot.png" hudSmall="maps/newFruits/hud/hud_fill_carrot_sml.png" />
             <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="34" />
         </fillType>
-		<fillType name="ONION" title="Onion" showOnPriceTable="true" pricePerLiter="0.666" >
+		<fillType name="ONION" title="Onion" showOnPriceTable="true" pricePerLiter="0.777" >
             <image hud="maps/newFruits/hud/hud_fill_onion.png" hudSmall="maps/newFruits/hud/hud_fill_onion_sml.png" />
             <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="34" />
         </fillType>
-        <fillType name="CLOVER" title="Clover" showOnPriceTable="true"  pricePerLiter="0.045" >
+        <fillType name="CLOVER" title="Clover" showOnPriceTable="true"  pricePerLiter="0.065" >
             <image hud="maps/newFruits/hud/hud_fill_clover.png" hudSmall="maps/newFruits/hud/hud_fill_clover_sml.png" />
             <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
         </fillType>
-		<fillType name="CLOVER_WINDROW" title="CloverWindrow" showOnPriceTable="false"  pricePerLiter="0.045" >
+		<fillType name="CLOVER_WINDROW" title="CloverWindrow" showOnPriceTable="false"  pricePerLiter="0.065" >
             <image hud="maps/newFruits/hud/hud_fill_clover_windrow.png" hudSmall="maps/newFruits/hud/hud_fill_clover_windrow_sml.png" />
             <physics massPerLiter="0.350" maxPhysicalSurfaceAngle="50" />
         </fillType>

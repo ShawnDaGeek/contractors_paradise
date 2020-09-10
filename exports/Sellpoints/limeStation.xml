@@ -3,10 +3,10 @@
     <storeData>
         <name>$l10n_shopItem_limeStation</name>
         <image>$data/placeables/limeStation/store_buyingStation.png</image>
-        <price>1</price>
-        <canBeSold>false</canBeSold>
-        <showInStore>false</showInStore>
-        <lifetime>1000</lifetime>
+        <price>17500</price>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>10000</lifetime>
         <rotation>0</rotation>
         <brand>LIZARD</brand>
         <species>placeable</species>
@@ -25,9 +25,9 @@
     <buyingStation stationName="$l10n_shopItem_limeStation" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01">
         <loadTrigger triggerNode="0|1|0|0|0" fillLitersPerSecond="500" dischargeNode="0|1|0|0|1">
             <effectNode effectClass="PipeEffect" effectNode="0|1|0|0|2|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
-            <effectNode effectNode="0|1|0|0|2|1" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
+            <effectNode effectNode="0|1|0|0|2|1" materialType="smoke" materialTypeId="1" fadeTime="0.75"/>
         </loadTrigger>
-        <fillType name="lime" priceScale="1" />
+        <fillType name="lime" priceScale="1.85" />
     </buyingStation>
 
 </placeable>
