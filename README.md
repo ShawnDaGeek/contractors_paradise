@@ -10,16 +10,16 @@ Note: This map is currently in testing and development phase and may have bugs, 
 1. Single Player
   * Download zip, unzip and open folder.  
   * Change name of folder inside unziped folder from contractors-paradise-master to contractors_paradise.
-  * Copy newly named folder contractors_paradise to mods folder.
+  * Copy newly named folder contractors_paradise to mods folder (delete the hidden .git folder, is not needed).
 2. Multi Player
   * Download zip, unzip and open folder.  
-  * Open folder inside of folder to see all the map files. 
+  * Open folder inside of folder to see all the map files (delete the hidden .git folder, is not needed). 
   * Select all map files and right click to get menu and Send to Zip.  
   * Rename zip after finished to contractors_paradise.zip
   * Add to mods folder.
 3. Server
   * Download zip, unzip and open folder.  
-  * Open folder inside of folder to see all the map files. 
+  * Open folder inside of folder to see all the map files (delete the hidden .git folder, is not needed). 
   * Select all map files and right click to get menu and Send to Zip.  
   * Rename zip after finished to contractors_paradise.zip
   * Add to server mods folder.
