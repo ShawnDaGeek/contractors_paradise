@@ -52,17 +52,17 @@
 <!-- inevestor owners above. -->
 <farmland id="41"  priceScale="120.5"    npcName="NPC_DE_01"  defaultFarmProperty="false" />
 <farmland id="42"  priceScale="120.5"    npcName="NPC_US_02"  defaultFarmProperty="false" />
-<farmland id="43"  priceScale="120.5"    npcName="NPC_DE_03"  defaultFarmProperty="false" /><!-- removed forest, expanded land and added 2x fields "large". -->
+<farmland id="43"  priceScale="120.5"    npcName="NPC_DE_03"  defaultFarmProperty="false" />
 <farmland id="44"  priceScale="120.5"    npcName="NPC_US_04"  defaultFarmProperty="false" />
-
-
+<farmland id="45"  priceScale="120.5"    npcName="NPC_DE_05"  defaultFarmProperty="false" />
+<farmland id="46"  priceScale="120.5"    npcName="NPC_US_06"  defaultFarmProperty="false" />
 <farmland id="47"  priceScale="120.5"    npcName="NPC_DE_07"  defaultFarmProperty="false" />
 <farmland id="48"  priceScale="120.5"    npcName="NPC_US_08"  defaultFarmProperty="false" />
-
-<farmland id="50"  priceScale="120.5"    npcName="NPC_US_10"  defaultFarmProperty="false" /> <!-- combined fields x4 into one.  indexes removed are - <farmland id="49"  priceScale="120.5"    npcName="NPC_DE_09"  defaultFarmProperty="false" /> - <farmland id="45"  priceScale="120.5"    npcName="NPC_DE_05"  defaultFarmProperty="false" /> - <farmland id="46"  priceScale="120.5"    npcName="NPC_US_06"  defaultFarmProperty="false" /> -->
+<farmland id="49"  priceScale="120.5"    npcName="NPC_DE_09"  defaultFarmProperty="false" />
+<farmland id="50"  priceScale="120.5"    npcName="NPC_US_10"  defaultFarmProperty="false" />
 <farmland id="51"  priceScale="120.5"    npcName="NPC_DE_11"  defaultFarmProperty="false" />
 <farmland id="52"  priceScale="120.5"    npcName="NPC_US_12"  defaultFarmProperty="false" />
-<farmland id="53"  priceScale="100.5"    npcName="NPC_DE_13"  defaultFarmProperty="false" /><!-- combined 2x lands for 1 x field, increased lands size. -->
+<farmland id="53"  priceScale="100.5"    npcName="NPC_DE_13"  defaultFarmProperty="false" />
 <farmland id="54"  priceScale="100.5"    npcName="NPC_US_14"  defaultFarmProperty="false" />
 <farmland id="55"  priceScale="100.5"    npcName="NPC_DE_15"  defaultFarmProperty="false" />
 <farmland id="56"  priceScale="100.5"    npcName="NPC_US_16"  defaultFarmProperty="false" />

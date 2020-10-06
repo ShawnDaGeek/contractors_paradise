@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="40">
     <author>ShawnDaGeek</author>
-    <version>1.0.2.2</version>
+    <version>1.0.2.7</version>
     <title>
         <en>Contractors Paradise 4x</en>
         <de>Contractors Paradise 4x</de>
@@ -9,6 +9,8 @@
     <description>
         <en>Contractors Paradise is a simple 4x map and fictional in nature.</en>
         <de>Contractors Paradise is a simple 4x map and fictional in nature.</de>
+        <fr>CSS Claas xerion multicolor</fr>
+        <jp>Claas Xerion Geek Edition Pink with Pink underglow to raise awareness.</jp>
     </description>
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>

@@ -75,7 +75,7 @@
 
     <fillTypes filename="$data/maps/maps_fillTypes.xml" /> 
     <sprayTypes filename="$data/maps/maps_sprayTypes.xml" />
-    <fruitTypes filename="maps/maps_fruitTypes.xml" />
+    <fruitTypes filename="$data/maps/maps_fruitTypes.xml" />
     <baleTypes filename="$data/maps/maps_baleTypes.xml" />
     <treeTypes filename="$data/maps/maps_treeTypes.xml" />
     <densityMapHeightTypes filename="$data/maps/maps_densityMapHeightTypes.xml" />

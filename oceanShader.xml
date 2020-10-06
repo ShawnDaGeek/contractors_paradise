@@ -4,7 +4,7 @@
     <Parameters>
         <Parameter name="bumpSpeedScale"                        target="bumpSpeedScale"                         type="float3" defaultValue ="-1.0 -3.75 0.02 1"/>
         <Parameter name="underwaterFogColor"                    target="underwaterFogColor"                   type="float4" defaultValue ="0.05 0.103 0.13 1"/>
-        <Parameter name="windScale"                             target="windScale"                              type="float"  defaultValue ="0.25" minValue="0" maxValue="1"/>
+        <Parameter name="windScale"                             target="windScale"                              type="float"  defaultValue ="0.25" minValue="0.15" maxValue="1"/>
     </Parameters>
     <Textures>
         <Texture name="normalMap" />
